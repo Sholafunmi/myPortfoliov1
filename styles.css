@@ -10,27 +10,18 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Sono', sans-serif; */
 body{
     color: #FFF;
-    background-color: black;
-    /* font-family: 'Edu NSW ACT Foundation', cursive; */
+    background-color: #0a0f0f;
     font-family: 'Roboto Mono', monospace,'Sono', sans-serif ;
-    /* font-family: 'Edu NSW ACT Foundation',  'Rajdhani', sans-serif,'Roboto Mono', monospace, 'Sono' ; */
- 
 }
 #hero{
     padding-top: 40px;
-   
-    background-color: black;
-    /* background-color: #182221; */
-    /* background-color: #0a0f0f; */
-    height: 80vh;
+    height: 100vh;
     width: 100%;
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
-    gap: 5em;
+    gap: 8em;
 }
 nav{
-    /* border: 2px solid blue; */
     width: 100%;
     height: 80px;
     display: flex;
@@ -42,7 +33,6 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 80%;
-    /* border: 2px solid red; */
 }
 .logo h2{
  
@@ -63,18 +53,12 @@ nav{
     color:rgb(24, 201, 201);
 }
 .heroContent{
-/* border: 2px solid red; */
 display: flex;
 width: 100%;
 height: 50vh;
-/* justify-content: center; */
 justify-content: space-between;
-/* justify-content: center; */
-/* align-items: center; */
-
 }
 .heroText{
-     /* border: 2px solid rgb(15, 189, 23); */
     width:40% ; 
     padding-top: ;
     height: 100%;
@@ -83,14 +67,9 @@ justify-content: space-between;
     flex-direction: column;
     font-weight: light;
     justify-content: center;
-    /* align-items: center; */
-    /* gap: 1em; */
-    /* font-family: 'Edu NSW ACT Foundation', cursive; */
-
 }
 .heroText h1{
     font-size: 40px;
-    /* font-family: 'Edu NSW ACT Foundation', cursive; */
 }
 .heroText .pText{
     width: 60%;
@@ -100,7 +79,7 @@ justify-content: space-between;
 .heroText a{
     text-decoration: none;
     color: #fff;
-    background-color: rgb(24, 201, 201);
+    background-color: #489797;
     padding: 13px 20px;
     border-radius: 10px;
     font-weight: bold;
@@ -110,11 +89,10 @@ justify-content: space-between;
 }
 .heroText a:hover{
     background-color: #fff;
-    color: rgb(24, 201, 201);
-    box-shadow: 8px 6px rgb(24, 201, 201);
+    color: #489797;
+    box-shadow: 8px 6px #489797;
 }
 .heroImage{
-    /* border: 2px solid rgb(239, 243, 13); */
     width: 30%;
     height: 100%;
     margin-right: 15%;
@@ -128,7 +106,6 @@ justify-content: space-between;
 
 @media only screen and (max-width:800px){
     #hero{
-            /* border: 2px solid rgb(214, 236, 11); */
         padding-top: 20px;
         height: 100vh;
         width: 100%;
@@ -208,7 +185,7 @@ justify-content: space-between;
     .heroText a{
         text-decoration: none;
         color: #fff;
-        background-color: rgb(24, 201, 201);
+        background-color: #489797;
         padding: 13px 20px;
         border-radius: 10px;
         font-weight: bold;
@@ -233,17 +210,15 @@ justify-content: space-between;
 }
 
 #skills{
-    border-top: 10px solid rgb(24, 201, 201);
-    border-bottom: 10px solid rgb(24, 201, 201);
+    /* border: 2px solid red; */
+    border-top: 10px solid #489797;
+    border-bottom: 10px solid #489797;
  border-bottom-left-radius: 40px;
  border-bottom-right-radius: 40px;
  border-top-left-radius: 40px;
  border-top-right-radius: 40px;
-    /* padding-top: 2em; */
-  /* border: 2px solid red; */
     height: 40vh;
     width: 100%;
-    background-color: #080808;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,57 +227,45 @@ justify-content: space-between;
   
 }
 .skillsContent{
-    /* border-top: 2px solid #a14e0b; */
-    /* border: 2px solid rgb(11, 196, 72); */
     display: flex;
     height: 10vh;
     width: 80%;
     justify-content: space-between;
     align-items: center;
-    /* border-bottom: 2px solid #a14e0b; */
 }
 .skillsContent .experience{
     font-size: 14px;
 }
 .experience{
-    border-bottom: 5px solid rgb(24, 201, 201);
+    border-bottom: 5px solid #489797;
     border-bottom-right-radius: 10px;
 }
 
 
 @media only screen and (max-width:800px){
     #skills{
-        border-top: 10px solid rgb(24, 201, 201);
-        border-bottom: 10px solid rgb(24, 201, 201);
+        border-top: 10px solid #489797;
+        border-bottom: 10px solid #489797;
      border-bottom-left-radius: 40px;
      border-bottom-right-radius: 40px;
      border-top-left-radius: 40px;
      border-top-right-radius: 40px;
-        padding-top: 1em;
-   
+        margin-top: 2em;
         height: 100vh;
         width: 100%;
-        background-color: #080808;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 1em;
-        
-        /* margin-top: 2em; */
-        /* margin-bottom: 3em; */
       
     }
     .skillsContent{
-        /* border-top: 2px solid #a14e0b; */
-        /* border: 2px solid rgb(11, 196, 72); */
         display: flex;
         height: fit-content;
         width: 80%;
         justify-content: space-between;
         align-items: center;
-        /* border-bottom: 2px solid #a14e0b; */
-
         flex-direction: column;
         gap: 3em;
         text-align: center;
@@ -316,25 +279,22 @@ justify-content: space-between;
         font-size: 25px;
     }
     .experience{
-        border-bottom: 7px solid rgb(15, 116, 116);
+        border-bottom: 7px solid #489797;
         border-bottom-right-radius: 10px;
-    }f
+    }
 }
 #projects{
-  /* border: 2px solid red; */
-  /* padding: 2em 0; */
+    /* border:2px solid red; */
     width: 100%;
-    height: 160vh;
-    background-color: #080808;
+    height: 180vh;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
 .projectContent{
+     /* border:2px solid red; */
     width: 80%;
     height: 100%;
-    /* border: 2px solid rgb(10, 147, 201); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -342,17 +302,17 @@ justify-content: space-between;
 }
 
 .projectContent .intro{
-    /* border: 2px solid rgb(230, 134, 10); */
     display: flex;
     justify-content: space-between;
     height: 40px;
     align-items: center;
+    padding-bottom: 1em;
 }
 .intro a{
    text-decoration: none;
    color: #fff;
    font-size: 10px;
-   background-color: rgb(24, 201, 201);
+   background-color: #489797;
    padding: 10px 20px;
    border-radius: 10px;
    box-shadow: 2px 2px #fff;
@@ -363,8 +323,8 @@ font-family: 'Roboto Mono', monospace,'Sono', sans-serif ;
 }
 .intro a:hover{
     background-color: #fff;
-    color: rgb(24, 201, 201);
-    box-shadow: 8px 6px rgb(24, 201, 201);
+    color: #489797;
+    box-shadow: 8px 6px #489797;
     /* transform: rotate(5deg); */
 }
 .previousProjects{
@@ -407,7 +367,7 @@ font-family: 'Roboto Mono', monospace,'Sono', sans-serif ;
 .text a{
   text-decoration: none;
   color: #fff;
-  background-color:  rgb(24, 201, 201);
+  background-color:  #489797;
   padding: 5px 15px;
   border-radius: 10px;
   box-shadow: 2px 2px #fff;
@@ -417,8 +377,8 @@ font-family: 'Roboto Mono', monospace,'Sono', sans-serif ;
 }
 .text a:hover{
     background-color: #fff;
-color: rgb(24, 201, 201);
-box-shadow: 5px 6px rgb(24, 201, 201);
+color: #489797;
+box-shadow: 5px 6px #489797;
 }
 
 .projectSample2 .image{
@@ -457,10 +417,10 @@ box-shadow: 5px 6px rgb(24, 201, 201);
     #projects{
         padding-top: 2em;
           width: 100%;
-          height: 310vh;
-          background-color: #080808;
+          height: 328vh;
           display: flex;
           justify-content: center;
+          /* background-color: #e61313; */
       }
       .projectContent{
           width: 80%;
@@ -468,6 +428,7 @@ box-shadow: 5px 6px rgb(24, 201, 201);
           display: flex;
           flex-direction: column;
           gap: 1em;
+          padding-bottom: 0;
       }
       
       .projectContent .intro{
@@ -480,15 +441,15 @@ box-shadow: 5px 6px rgb(24, 201, 201);
          text-decoration: none;
          color: #fff;
          font-size: 10px;
-         background-color: rgb(24, 201, 201);
+         background-color: #489797;
          padding: 10px 20px;
          border-radius: 10px;
          box-shadow: 2px 2px #fff;
       }
       .intro a:hover{
           background-color: #fff;
-          color: rgb(24, 201, 201);
-          box-shadow: 8px 6px rgb(24, 201, 201);      
+          color: #489797;
+          box-shadow: 8px 6px #489797;      
       }
       .previousProjects{
           display: flex;
@@ -581,10 +542,11 @@ align-items: center;
 }
 .footerContent{
     width: 80%;
-    height: 90%;
-    background-color: #141414;
+    height: 100%;
+    /* background-color: #141414; */
     display: flex;
     flex-direction: column;
+    padding: 5% 0;
     /* border: 2px solid red; */
 }
 .top{
@@ -618,6 +580,7 @@ align-items: center;
 }
 form{
 background-color: rgb(13, 77, 77);
+/* background-color: #83fbff; */
 padding: 2em 3em;
 display: flex;
 flex-direction: column;
@@ -633,7 +596,7 @@ form input{
 }
 .bottom{
       /* border: 2px solid rgb(186, 226, 6); */
-      border-top: 2px solid rgb(24, 201, 201);
+      border-top: 2px solid #489797;
       padding-top: 1.5em;
       margin-top: 4em;
 
@@ -660,7 +623,7 @@ gap: 1.5em;
   
         width: 100%;
         height: 100vh;
-        background-color: #141414;
+        /* background-color: #141414; */
         display: flex;
         justify-content: center;
         align-items: center; */
@@ -668,7 +631,7 @@ gap: 1.5em;
         }
         .footerContent{
             width: 90%;
-            height: 90%;
+            height: 100%;
             background-color: #141414;
             display: flex;
             flex-direction: column;
