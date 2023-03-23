@@ -104,7 +104,7 @@ justify-content: space-between;
 }
 
 
-@media only screen and (max-width:896px){
+@media only screen and (max-width:930px){
     #hero{
         padding-top: 20px;
         /* height: 100vh; */
@@ -154,8 +154,7 @@ justify-content: space-between;
     width: 90%;
     height: 600px;
     justify-content: center;
-  
-
+   
     
     }
     .heroText{
@@ -243,7 +242,7 @@ justify-content: space-between;
 }
 
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:930px){
     #skills{
         border-top: 10px solid #489797;
         border-bottom: 10px solid #489797;
@@ -252,13 +251,14 @@ justify-content: space-between;
      border-top-left-radius: 40px;
      border-top-right-radius: 40px;
         margin-top: 2em;
-        height: 100vh;
+        height: fit-content;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 1em;
+        padding-top: 2em;
       
     }
     .skillsContent{
@@ -285,7 +285,6 @@ justify-content: space-between;
     }
 }
 #projects{
-    /* border:2px solid red; */
     width: 100%;
     height: 180vh;
     display: flex;
@@ -293,7 +292,6 @@ justify-content: space-between;
     align-items: center;
 }
 .projectContent{
-     /* border:2px solid red; */
     width: 80%;
     height: 100%;
     display: flex;
@@ -414,18 +412,19 @@ box-shadow: 5px 6px #489797;
     background-repeat: no-repeat;
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:930px){
     #projects{
-        padding-top: 2em;
+        padding-top: 4em;
           width: 100%;
-          height: 328vh;
+          /* height: 328vh; */
+          height: fit-content;
           display: flex;
           justify-content: center;
-          /* background-color: #e61313; */
       }
       .projectContent{
           width: 80%;
           height: 100%;
+          /* height: fit-content; */
           display: flex;
           flex-direction: column;
           gap: 1em;
@@ -466,8 +465,7 @@ box-shadow: 5px 6px #489797;
           display: flex;
           flex-direction: column;
           gap: .8em;
-          margin-bottom: 2em;
-      
+          margin-bottom: 2em;       
       }
       .projectSample .image{
             width: 100%;
@@ -529,13 +527,11 @@ box-shadow: 5px 6px #489797;
 
 
 
-
-
-
 #footer{
     font-family: 'Roboto Mono', monospace,'Sono', sans-serif ;
 width: 100%;
-height: 80vh;
+/* height: 80vh; */
+height: fit-content;
 background-color: #141414;
 display: flex;
 justify-content: center;
@@ -544,14 +540,11 @@ align-items: center;
 .footerContent{
     width: 80%;
     height: 100%;
-    /* background-color: #141414; */
     display: flex;
     flex-direction: column;
     padding: 5% 0;
-    /* border: 2px solid red; */
 }
 .top{
-    /* border: 2px solid rgb(6, 197, 101); */
     width: 100%;
     height: fit-content;
     display: flex;
@@ -559,7 +552,6 @@ align-items: center;
 
 }
 .topLeft{
-    /* border: 2px solid rgb(14, 3, 63); */
     width: 30%;
     height: ;
     display: flex;
@@ -575,18 +567,17 @@ align-items: center;
     font-size: 15px;
 }
 .topRight{
-    /* border: 2px solid rgb(186, 226, 6); */
     width: 40%;
     height: ;
 }
 form{
-background-color: rgb(13, 77, 77);
-/* background-color: #83fbff; */
+/* background-color: rgb(13, 77, 77); */
+background-color: #fff;
+color: black;
 padding: 2em 3em;
 display: flex;
 flex-direction: column;
 border-radius: 10px;
-/* align-items: center; */
 }
 .name, .email, .doc, .message{
 padding: 10px 0;
@@ -596,7 +587,6 @@ form input{
     width: 100%;
 }
 .bottom{
-      /* border: 2px solid rgb(186, 226, 6); */
       border-top: 2px solid #489797;
       padding-top: 1.5em;
       margin-top: 4em;
@@ -619,12 +609,13 @@ gap: 1.5em;
     
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:930px){
     #footer{
   
         width: 100%;
-        height: 100vh;
-        /* background-color: #141414; */
+        /* height: 100vh; */
+        height: fit-content;
+        background-color: #141414;
         display: flex;
         justify-content: center;
         align-items: center; */
@@ -636,11 +627,8 @@ gap: 1.5em;
             background-color: #141414;
             display: flex;
             flex-direction: column;
-
-         /* border: 2px solid red; */
         }
         .top{
-            /* border: 2px solid rgb(6, 197, 101); */
             width: 100%;
             height: fit-content;
             display: flex;
@@ -651,15 +639,12 @@ gap: 1.5em;
             gap: 3em;
         }
         .topLeft{
-            /* border: 2px solid rgb(14, 3, 63); */
             width: 100%;
             height: ;
             display: flex;
             flex-direction: column;
             gap: 1.5em;
             justify-content: center;
-
-
             text-align: center;
             align-items: center;
         
@@ -676,15 +661,18 @@ gap: 1.5em;
             height: ;
         }
         form{
-        background-color: rgb(15, 116, 116);
+        /* background-color: rgb(15, 116, 116); */
+        /* border: 1px solid rgb(15, 116, 116); */
+        background-color: #fff;
+        color: black;
         padding: 2em 3em;
         display: flex;
         flex-direction: column;
         border-radius: 10px;
-        /* align-items: center; */
         }
         .name, .email, .message{
         padding: 10px 0;
+    
         }
         form input{
             padding: 8px;
@@ -704,12 +692,7 @@ gap: 1.5em;
             align-items: center;
             gap: 1em;
         }
-        .logo{
         
-        }
-        .footerLinks{
-        
-        }
         .footerLinks .links{
             display: flex;
         gap: 2em;
