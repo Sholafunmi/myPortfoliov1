@@ -174,13 +174,13 @@ justify-content: space-between;
     
     }
     .heroText h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     .heroText .pText{
         width: 100%;
         padding-top: 10px;
         padding-bottom: 2em;
-        font-size: 18px;
+        font-size: 15px;
     }
     .heroText a{
         text-decoration: none;
