@@ -20,6 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 8em;
+
 }
 nav{
     width: 100%;
@@ -53,10 +54,15 @@ nav{
     color:rgb(24, 201, 201);
 }
 .heroContent{
+    /* border: 2px solid; */
 display: flex;
 width: 100%;
-height: 50vh;
+height: 100%;
 justify-content: space-between;
+background-image: url(./images/sh2..png);
+background-position-x: 80%;
+background-size: contain;
+background-repeat: no-repeat; 
 }
 .heroText{
     width:40% ; 
@@ -93,13 +99,13 @@ justify-content: space-between;
     box-shadow: 8px 6px #489797;
 }
 .heroImage{
-    width: 30%;
+    /* width: 30%;
     height: 100%;
     margin-right: 15%;
     background-image: url(./images/sh2..png);
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
  
 }
 
@@ -195,14 +201,7 @@ justify-content: space-between;
      
     }
     .heroImage{
-        /* border: 2px solid rgb(239, 243, 13); */
-        width: 100%;
-        height: 80%;
-        margin-right: 0%;
-        background-image: url(./images/sh2..png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+      
      
     }
  
@@ -240,6 +239,9 @@ justify-content: space-between;
     border-bottom: 5px solid #489797;
     border-bottom-right-radius: 10px;
 }
+
+
+
 
 
 @media only screen and (max-width:930px){
@@ -286,10 +288,12 @@ justify-content: space-between;
 }
 #projects{
     width: 100%;
-    height: 180vh;
+    /* height: 180vh; */
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 4em 0;
 }
 .projectContent{
     width: 80%;
@@ -410,6 +414,22 @@ box-shadow: 5px 6px #489797;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+
+.projectSample7 .image{
+    background: url(./images/rps2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+..projectSample8 .image{
+    background: url(./images/rps2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 @media only screen and (max-width:930px){
