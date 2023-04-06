@@ -164,15 +164,15 @@ background-repeat: no-repeat;
     height: fit-content;
     /* justify-content: center; */
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(./images/sh2..png);
-    background-position: center;
-    background-size: contain;
+    background-position: top;
+    background-size: cover;
     background-repeat: no-repeat;
     
     }
     .heroText{
         width:100% ; 
-      /* border: 2px solid red; */
-        padding-top: ;
+        padding:0 5% ;
+        margin-bottom: 2em;
         height: 100%;
         /* height: fit-content; */
         margin-left: 0%;
@@ -180,7 +180,6 @@ background-repeat: no-repeat;
         flex-direction: column;
         font-weight: light;
         justify-content: flex-end;
-        /* justify-content: center; */
         align-items: center;
         text-align: center;
         /* gap: 1em; */
@@ -431,10 +430,10 @@ box-shadow: 5px 6px #489797;
     background-repeat: no-repeat;
     width: 100%;
 }
-..projectSample8 .image{
-    background: url(./images/rps2.png);
+.projectSample8 .image{
+    background: url(./images/rps1.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
 }
