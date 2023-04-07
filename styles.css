@@ -78,15 +78,15 @@ background-repeat: no-repeat;
     font-weight: light;
     justify-content: center;
   
-    gap: 1em;
+    gap: .5em;
 
 }
 .heroText h1{
-    font-size: 40px;
+    font-size: 50px;
       font-family: 'Dancing Script';
 }
 .heroText .pText{
-    width: 60%;
+    /* width: 60%; */
     /* padding-top: 2em; */
     /* padding-bottom: 4em; */
     font-size: 20px;
