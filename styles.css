@@ -90,6 +90,7 @@ background-repeat: no-repeat;
     /* padding-top: 2em; */
     /* padding-bottom: 4em; */
     font-size: 20px;
+    font-family: 'Dancing Script';
 }
 .heroText a{
     text-decoration: none;
@@ -100,6 +101,7 @@ background-repeat: no-repeat;
     font-weight: bold;
     width: fit-content;
     box-shadow: 5px 5px #fff;
+    font-family: 'Dancing Script';
  
 }
 .heroText a:hover{
@@ -118,7 +120,7 @@ background-repeat: no-repeat;
  
 }
 
-/* MOBILE PHONE  */
+/* MOBILE PHONE  HERO SECTIOMN */
 @media only screen and (max-width:600px){
     #hero{
         padding-top: 20px;
@@ -191,17 +193,17 @@ background-repeat: no-repeat;
         justify-content: flex-end;
         align-items: center;
         text-align: center;
-        /* gap: 1em; */
+        gap: 0em;
     
     }
     .heroText h1{
-        font-size: 25px;
+        font-size: 35px;
     }
     .heroText .pText{
         width: 100%;
         padding-top: 10px;
         padding-bottom: 2em;
-        font-size: 15px;
+        font-size: 20px;
     }
     .heroText a{
         text-decoration: none;
