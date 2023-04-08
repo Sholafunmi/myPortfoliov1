@@ -3,16 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/* font-family: 'Edu NSW ACT Foundation', cursive;
-font-family: 'Rajdhani', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Sono', sans-serif; */
 body{
-    color: #FFF;
-    background-color: #243131;
+    color:  #F2F3F5;
+    /* color: #D6D5CB; */
+    background-color: rgb(40, 40, 43);
+    /* background-color: rgb(53, 57, 53); */
+    /* background-color: #243131; */
+    /* background-color: rgb(1, 20, 27); */
     font-family: 'Dancing Script';
-    /* font-family: 'Roboto Mono', monospace,'Sono', sans-serif ; */
 }
 #hero{
     padding-top: 40px;
@@ -32,12 +30,12 @@ nav{
     
 }
 .navContent{
+    align-items: center;
     display: flex;
     justify-content: space-between;
     width: 80%;
 }
 .logo h2{
-    /* font-family: 'Great Vibes', cursive; */
     font-family: 'Sacramento', cursive;
     font-size: 40px;
 }
@@ -47,7 +45,6 @@ nav{
 }
 .links li{
     list-style: none;  
-    
 }
 .links li a{
     color: rgb(15, 116, 116);
@@ -57,28 +54,23 @@ nav{
     color:rgb(24, 201, 201);
 }
 .heroContent{
-    /* border: 2px solid; */
 display: flex;
 width: 100%;
 height: 100%;
 justify-content: space-between;
-/* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(./images/sh2..png); */
 background-image: url(./images/sh2..png);
 background-position-x: 80%;
 background-size: contain;
 background-repeat: no-repeat; 
 }
 .heroText{
-    /* border: 2px solid; */
     width:40% ; 
-    /* padding-top: ; */
     height: 100%;
     margin-left: 15%;
     display: flex;
     flex-direction: column;
     font-weight: light;
     justify-content: center;
-  
     gap: .5em;
 
 }
@@ -87,45 +79,31 @@ background-repeat: no-repeat;
       font-family: 'Dancing Script';
 }
 .heroText .pText{
-    /* width: 60%; */
-    /* padding-top: 2em; */
-    /* padding-bottom: 4em; */
     font-size: 20px;
     font-family: 'Dancing Script';
 }
 .heroText a{
     text-decoration: none;
-    color: #fff;
+    color: #F2F3F5;
     background-color: #489797;
     padding: 13px 20px;
     border-radius: 10px;
     font-weight: bold;
     width: fit-content;
-    box-shadow: 5px 5px #fff;
+    box-shadow: 5px 5px #F2F3F5;
     font-family: 'Dancing Script';
  
 }
 .heroText a:hover{
-    background-color: #fff;
+    background-color: #F2F3F5;
     color: #489797;
     box-shadow: 8px 6px #489797;
 }
-.heroImage{
-    /* width: 30%;
-    height: 100%;
-    margin-right: 15%;
-    background-image: url(./images/sh2..png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat; */
- 
-}
-/* the width for tblet wil be 950px */
+
 /* MOBILE PHONE  HERO SECTIOMN */
-@media only screen and (max-width:600px){
+@media only screen and (max-width:450px){
     #hero{
         padding-top: 20px;
-        /* height: 100vh; */
         height: fit-content;
         width: 100%;
         display: flex;
@@ -146,13 +124,11 @@ background-repeat: no-repeat;
         justify-content: center;
         align-items: center;
         width: 80%;
-
            flex-direction: column;
            gap: 1em;
     }
     .logo h2{
         font-size: 30px;
-    
     }
     .links{
      display: flex;
@@ -165,28 +141,23 @@ background-repeat: no-repeat;
     .links li a{ 
         font-size: 25px;
     }
-    .heroContent{
-      
+    .heroContent{      
     margin-top: 0em;
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
-    /* height: 600px; */
     min-height: 80vh;
     height: fit-content;
-    /* justify-content: center; */
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(./images/sh2..png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    
     }
     .heroText{
         width:100% ; 
         padding:0 5% ;
         margin-bottom: 2em;
         height: 100%;
-        /* height: fit-content; */
         margin-left: 0%;
         display: flex;
         flex-direction: column;
@@ -208,26 +179,109 @@ background-repeat: no-repeat;
     }
     .heroText a{
         text-decoration: none;
-        color: #fff;
+        color: #F2F3F5;
         background-color: #489797;
         padding: 13px 20px;
         border-radius: 10px;
         font-weight: bold;
         width: fit-content;
-        box-shadow: 5px 5px #fff;
-        /* margin-top: 0em; */
+        box-shadow: 5px 5px #F2F3F5;
      
     }
-    .heroImage{
-      
-     
-    }
- 
- 
 }
 
+/* MEDIA QUERY FOR TABLETS  */
+@media only screen and (max-width:950px) and (min-width:568px){
+    #hero{
+        padding-top: 20px;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .navContent{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+           gap: 0em;
+    }
+    .logo h2{
+        font-size: 35px;
+    }
+    .links{
+     display: flex;
+     gap: 2em;
+    }
+    .links li{
+        list-style: none;
+    }
+    .links li a{ 
+        font-size: 25px;
+    }
+    .heroContent{      
+    margin-top: 0em;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 80vh;
+    height: fit-content;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(./images/sh2..png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    }
+    .heroText{
+        width:100% ; 
+        padding:0 5% ;
+        margin-bottom: 2em;
+        height: 100%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        font-weight: light;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center;
+        gap: 0em;
+    
+    }
+    .heroText h1{
+        font-size: 30px;
+    }
+    .heroText .pText{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 2em;
+        font-size: 20px;
+    }
+    .heroText a{
+        text-decoration: none;
+        color: #F2F3F5;
+        background-color: #489797;
+        padding: 13px 20px;
+        border-radius: 10px;
+        font-weight: bold;
+        width: fit-content;
+        box-shadow: 5px 5px #F2F3F5;
+        font-size: 15px;
+    }
+}
+
+
 #skills{
-    /* border: 2px solid red; */
     border-top: 10px solid #489797;
     border-bottom: 10px solid #489797;
  border-bottom-left-radius: 40px;
@@ -249,7 +303,6 @@ background-repeat: no-repeat;
     width: 80%;
     justify-content: space-between;
     align-items: center;
-    /* font-family: 'Dancing Script', cursive; */
 }
 .skillsContent .experience{
     font-size: 14px;
@@ -258,8 +311,6 @@ background-repeat: no-repeat;
     border-bottom: 5px solid #489797;
     border-bottom-right-radius: 10px;
 }
-
-
 
 
 
@@ -307,7 +358,6 @@ background-repeat: no-repeat;
 }
 #projects{
     width: 100%;
-    /* height: 180vh; */
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -332,30 +382,24 @@ background-repeat: no-repeat;
 }
 .intro a{
    text-decoration: none;
-   color: #fff;
+   color: #F2F3F5;
    font-size: 10px;
    background-color: #489797;
    padding: 10px 20px;
    border-radius: 10px;
-   box-shadow: 2px 2px #fff;
+   box-shadow: 2px 2px #F2F3F5;
 font-family: 'Roboto Mono', monospace,'Sono', sans-serif ;
-
-
-
 }
 .intro a:hover{
-    background-color: #fff;
+    background-color: #F2F3F5;
     color: #489797;
     box-shadow: 8px 6px #489797;
-    /* transform: rotate(5deg); */
 }
 .previousProjects{
     display: flex;
     width: 100%;
     height: fit-content;
     justify-content: space-between;
-  
-
 }
 .projectSample{
     width: 48%;
@@ -388,17 +432,16 @@ font-family: 'Roboto Mono', monospace,'Sono', sans-serif ;
 }
 .text a{
   text-decoration: none;
-  color: #fff;
+  color: #F2F3F5;
   background-color:  #489797;
   padding: 5px 15px;
   border-radius: 10px;
-  box-shadow: 2px 2px #fff;
+  box-shadow: 2px 2px #F2F3F5;
   width: fit-content;
   font-family: 'Roboto Mono', monospace,'Sono', sans-serif ;
-
 }
 .text a:hover{
-    background-color: #fff;
+    background-color: #F2F3F5;
 color: #489797;
 box-shadow: 5px 6px #489797;
 }
@@ -455,7 +498,6 @@ box-shadow: 5px 6px #489797;
     #projects{
         padding-top: 4em;
           width: 100%;
-          /* height: 328vh; */
           height: fit-content;
           display: flex;
           justify-content: center;
@@ -463,7 +505,7 @@ box-shadow: 5px 6px #489797;
       .projectContent{
           width: 80%;
           height: 100%;
-          /* height: fit-content; */
+
           display: flex;
           flex-direction: column;
           gap: 1em;
@@ -478,15 +520,15 @@ box-shadow: 5px 6px #489797;
       }
       .intro a{
          text-decoration: none;
-         color: #fff;
+         color: #F2F3F5;
          font-size: 10px;
          background-color: #489797;
          padding: 10px 20px;
          border-radius: 10px;
-         box-shadow: 2px 2px #fff;
+         box-shadow: 2px 2px #F2F3F5;
       }
       .intro a:hover{
-          background-color: #fff;
+          background-color: #F2F3F5;
           color: #489797;
           box-shadow: 8px 6px #489797;      
       }
@@ -567,10 +609,8 @@ box-shadow: 5px 6px #489797;
 
 
 #footer{
-    /* font-family: 'Roboto Mono', monospace,'Sono', sans-serif ; */
     font-family: 'Dancing Script', cursive;
 width: 100%;
-/* height: 80vh; */
 height: fit-content;
 background-color: #141414;
 display: flex;
@@ -593,7 +633,6 @@ align-items: center;
 }
 .topLeft{
     width: 30%;
-    height: ;
     display: flex;
     flex-direction: column;
     gap: 1.5em;
@@ -611,8 +650,7 @@ align-items: center;
     height: ;
 }
 form{
-/* background-color: rgb(13, 77, 77); */
-background-color: #fff;
+background-color: #F2F3F5;
 color: black;
 padding: 2em 3em;
 display: flex;
@@ -630,30 +668,22 @@ form input{
       border-top: 2px solid #489797;
       padding-top: 1.5em;
       margin-top: 4em;
-
 }
 .bottomContent{
-    /* border: 2px solid rgb(221, 129, 24); */
     display: flex;
     justify-content: space-between;
 }
-.logo{
 
-}
-.footerLinks{
-
-}
 .footerLinks .links{
     display: flex;
 gap: 1.5em;
     
 }
-
+/* MOBILE FOR FOOTER  */
 @media only screen and (max-width:600px){
     #footer{
   
         width: 100%;
-        /* height: 100vh; */
         height: fit-content;
         background-color: #141414;
         display: flex;
@@ -673,8 +703,6 @@ gap: 1.5em;
             height: fit-content;
             display: flex;
             justify-content: space-between;
-        
-
             flex-direction: column;
             gap: 3em;
         }
@@ -696,14 +724,11 @@ gap: 1.5em;
             font-size: 15px;
         }
         .topRight{
-            /* border: 2px solid rgb(186, 226, 6); */
             width: 100%;
             height: ;
         }
         form{
-        /* background-color: rgb(15, 116, 116); */
-        /* border: 1px solid rgb(15, 116, 116); */
-        background-color: #fff;
+        background-color: #F2F3F5;
         color: black;
         padding: 2em 3em;
         display: flex;
@@ -719,7 +744,6 @@ gap: 1.5em;
             width: 100%;
         }
         .bottom{
-              /* border: 2px solid rgb(186, 226, 6); */
               border-top: 2px solid rgb(24, 201, 201);
               padding-top: 1.5em;
               margin-top: 3em;
@@ -732,13 +756,108 @@ gap: 1.5em;
             align-items: center;
             gap: 1em;
         }
-        
         .footerLinks .links{
             display: flex;
         gap: 2em;
         }
-
         .footerLinks .links a{
            font-size: 25px;
         }
+}
+
+
+
+  /* FOOTER FOR TABLETS  */
+  @media only screen and (max-width:950px) and (min-width:600px){
+  #footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    justify-content: center;
+    }
+    .footerContent{
+        width: 90%;
+        height: 100%;
+        background-color: #141414;
+        display: flex;
+        flex-direction: column;
+    }
+    .top{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 3em;
+    }
+    .topLeft{
+        width: 100%;
+        height: ;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .topLeft h1{
+      font-size: 30px;
+    }
+    .topLeft p{
+        font-size: 15px;
+    }
+    .topRight{
+        width: 100%;
+        height: ;
+    }
+    form{
+    background-color: #F2F3F5;
+    color: black;
+    padding: 2em 3em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    }
+    .name, .email, .message{
+    padding: 10px 0;
+
+    }
+    form input{
+        padding: 8px;
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+/* OTHER SMALER DEVICES LIKE 1PHONE 5 */
+@media only screen and (max-width:320px){
+    .logo h2{
+        font-size: 25px;
+    }
+   
+    .links li a{ 
+        font-size: 20px;
+    }
+    .heroText h1{
+        font-size: 25px;
+    }
+    .heroText .pText{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 2em;
+        font-size: 15px;
+    }
+    .heroText a{
+        font-size: 12px;
+    }
 }
