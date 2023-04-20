@@ -482,15 +482,15 @@ box-shadow: 5px 6px #489797;
 
 
 .projectSample7 .image{
-    background: url(./images/RPSdESKTOP2.png);
+    background: url(./images/RPSdESKTOP22.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
 .projectSample8 .image{
-    background: url(./images/FCFS_desktopView2.png);
-    background-position: center;
+    background: url(./images/FCFS_desktopView22.png);
+    background-position: ;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -607,16 +607,16 @@ box-shadow: 5px 6px #489797;
           background-repeat: no-repeat;
       }
       .projectSample7 .image{
-        background: url(./images/RPSdESKTOP2.png);
+        background: url(./images/RPSdESKTOP22.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
     }
     .projectSample8 .image{
-        background: url(./images/FCFS_desktopView2.png);
+        background: url(./images/FCFS_desktopView22.png);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
     }
