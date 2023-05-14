@@ -411,6 +411,10 @@ font-family: 'Roboto Mono', monospace,'Sono', sans-serif ;
     gap: .5em;
 
 }
+.projectSample:hover{
+   
+  
+}
 .projectSample .image{
       width: 100%;
     height: 80%;
@@ -494,6 +498,13 @@ box-shadow: 5px 6px #489797;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+}
+
+.projectSample9 .image{
+    background: url(./images/FashDesktopView2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* PROJECT FOR MOBILE  */
@@ -619,6 +630,12 @@ box-shadow: 5px 6px #489797;
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
+    }
+    .projectSample9 .image{
+        background: url(./images/FashDesktopView2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
