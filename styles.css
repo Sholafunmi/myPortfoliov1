@@ -506,6 +506,12 @@ box-shadow: 5px 6px #489797;
     background-size: cover;
     background-repeat: no-repeat;
 }
+.projectSample10 .image{
+    background: url(./images/Tomide-desktop.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* PROJECT FOR MOBILE  */
 @media only screen and (max-width:600px){
@@ -517,7 +523,7 @@ box-shadow: 5px 6px #489797;
           justify-content: center;
       }
       .projectContent{
-          width: 80%;
+          width: 90%;
           height: 100%;
 
           display: flex;
@@ -633,6 +639,12 @@ box-shadow: 5px 6px #489797;
     }
     .projectSample9 .image{
         background: url(./images/FashDesktopView2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .projectSample10 .image{
+        background: url(./images/Tomide-desktop.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
