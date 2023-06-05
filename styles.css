@@ -259,7 +259,7 @@ display: none;
            gap: 1em;
     }
     .logo h2{
-        font-size: 15px;
+        font-size: 20px;
     }
     .links{
      display: none;
@@ -346,11 +346,12 @@ display: none;
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        width: 80%;
+        width: 90%;
+        height: 100%;
            gap: 0em;
     }
     .logo h2{
-        font-size: 35px;
+        font-size: 25px;
     }
     .links{
      display: flex;
@@ -361,6 +362,9 @@ display: none;
     }
     .links li a{ 
         font-size: 25px;
+    }
+    .hamburger{
+        display: none;
     }
     .heroContent{      
     margin-top: 0em;
@@ -499,7 +503,7 @@ display: none;
     margin: 4em 0;
 }
 .projectContent{
-    width: 80%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
