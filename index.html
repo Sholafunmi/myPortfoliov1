@@ -356,30 +356,44 @@
                 </div>
 
                 <div class="topRight">
-                    <form action="">
+
+                <!-- <form action="https://formsubmit.co/your@email.com" method="POST">
+                <input type="text" name="name"  required>
+                <input type="email" name="email" required>
+                <button type="submit">Send</button>
+                </form> -->
+                    <form action="https://formsubmit.co/sholafunmiadewara@gmail.com" method="post">
                         <div class="name">
                             <p>NAME</p>
-                            <input type="text" name="" id=" " placeholder="John">
+                            <input type="text" name="name" id=" " placeholder="John Joseph" required>
                         </div>
 
                         <div class="email">
                             <p> EMAIL</p>
-                            <input type="text" name="" id=" " placeholder="John@gmail.com">
+                            <input type="email" name="email" id=" " placeholder="JohnJoseph@gmail.com" required>
                         </div>
 
                         <div class="doc">
                             <p> PROJECT BRIEF</p>
-                            <input type="file" name="" id=" " >
+                            <input type="file" name="file" id=" ">
                         </div>
 
                         <div class="message">
                             <p> MESSAGE</p>
-                            <input type="text" name="" id=" " placeholder="Hello.....">
+                            <textarea name="" id="" cols="30" rows="10" " placeholder="Hi Sholafunmi....."></textarea>
+                            <!-- <input type="text" name="" id=" " placeholder="Hello....." required> -->
                         </div>
 
-                        <a href="mailto:sholafunmiadewara@gmail.com">  
-                            <input style="width:fit-content;  align-self: center; border-radius: 8px; border:none ; background-color:#489797; color: #fff; padding: 10px 25px; font-size: 18px; " type="submit" placeholder="Send Message" name="Send Message"> 
-                        </a>
+                         <!-- <input style="width:fit-content;  align-self: center; border-radius: 8px; border:none ; background-color:#489797; color: #fff; padding: 10px 25px; font-size: 18px; " type="submit" placeholder="Send Message" name="Send Message">  -->
+                        <button type="submit" style="width:fit-content;  align-self: center; border-radius: 8px; border:none ; background-color:#489797; color: #fff; padding: 10px 25px; font-size: 18px; " type="submit" placeholder="Send Message" name="Send Message"> submit</button>
+                        <!-- <a href="mailto:sholafunmiadewara@gmail.com">  
+                           
+                        </a> -->
+
+                        <!-- take the form reply to a new page  -->
+                        <input type="hidden" name="_next" value="https://sholafunmiadewara.vercel.app/thankyou.html">
+                        <input type="hidden" name="_subject" value="New submission!">
+                        <input type="hidden" name="_autoresponse" value="Thanks for contacting Sholafunmi, i will get back to you soon">
 
                       
                     </form>
