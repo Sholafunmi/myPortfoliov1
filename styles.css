@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     color:  #F2F3F5;
@@ -648,6 +649,12 @@ box-shadow: 5px 6px #489797;
     background-size: cover;
     background-repeat: no-repeat;
 }
+.projectSample11 .image{
+    background: url(./images/spillAfrica.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* PROJECT FOR MOBILE  */
 @media only screen and (max-width:600px){
@@ -781,6 +788,12 @@ box-shadow: 5px 6px #489797;
     }
     .projectSample10 .image{
         background: url(./images/Tomide-desktop.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .projectSample11 .image{
+        background: url(./images/spillAfrica.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
